@@ -1,0 +1,301 @@
+body {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+
+.first {
+    background-color: cadetblue;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.bracket {
+    position: relative;
+    margin-right: 30px;
+    top: 100px;
+}
+
+.mask {
+    position: relative;
+    top: 100px;
+    border-radius: 50%;
+}
+
+.eat {
+    position: relative;
+    margin-left: 30px;
+    top: 100px;
+}
+
+.text {
+    position: relative;
+    top: 150px;
+    background-color: bisque;
+}
+
+.name {
+    font-size: 3rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+.des {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.span {
+    color: brown;
+}
+
+.slobox {
+    position: relative;
+    top: 200px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+}
+
+.second {
+    background-color: whitesmoke;
+    height: 1300px;
+}
+
+.mithun {
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.welcome {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+}
+
+.intro {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.head {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+}
+
+.myskill1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.para11 {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para22 {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.item {
+    display: flex;
+    justify-content: right;
+}
+
+.midnext {
+    margin-top: 100px;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.yap {
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.vgdes {
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: blue;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+}
+
+a {
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.last {
+    background-color: aquamarine;
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.link {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.utube {
+    font-size: 2rem;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.at {
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ✅ Responsive Design Starts Here */
+@media (max-width: 768px) {
+    .first {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .bracket,
+    .mask,
+    .eat {
+        display: block;
+        margin: 10px auto;
+        top: 0;
+    }
+
+    .text {
+        top: 50px;
+        padding: 10px;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .des {
+        font-size: 1.3rem;
+    }
+
+    .slobox {
+        top: 80px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .second {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .mithun {
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro {
+        font-size: 1rem;
+    }
+
+    .head {
+        font-size: 1.5rem;
+    }
+
+    .myskill1 {
+        display: block;
+    }
+
+    .coding.item,
+    .videogame.item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .para1,
+    .para2 {
+        text-align: center;
+        margin: 20px 10px;
+    }
+
+    .vg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .para11,
+    .para22 {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .yap {
+        font-size: 2rem;
+    }
+
+    .vgdes {
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .link,
+    .utube {
+        font-size: 1.5rem;
+    }
+
+    .at {
+        font-size: 1rem;
+    }
+}
